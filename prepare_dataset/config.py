@@ -1,0 +1,7 @@
+RAW_TRAIN = "/data/crowdai_couterfactual/raw/criteo_train.txt"
+RAW_TEST = "data/crowdai_couterfactual/raw/criteo_test_release.txt"
+SHARDS_DIR = "/data/crowdai_couterfactual/shards/"
+PICKLED_DIR = "/data/crowdai_couterfactual/pickled/"
+SPARSE_DIR = "/data/crowdai_couterfactual/sparse/"
+TMP_DIR = "./tmp/"
+TENSORBOARD_DIR = "./tb/"
