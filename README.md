@@ -22,7 +22,7 @@ Some details about the approach you can find in `docs` folder.
 * tensorflow-tensorboard (0.4.0rc2)
 * tqdm (4.19.4)
 
-## Hardware/software requirements
+## Hardware requirements
 This code was executed on machine with 64G RAM, i7-6800K core and NVIDIA GTX 1080 running under Linux Mint 18.1 (not tested, but should run without GPU and with less RAM).
 
 ## Promotion
