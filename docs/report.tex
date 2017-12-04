@@ -128,6 +128,9 @@ Despite some of them produce cross-validation score slightly better then linear 
 \subsection{More complicated loss functions}
 I tried to use self-normalization approach (via normalizing to $S$ estimated over a batch of 512 samples) and POEM-like (via adding std of $r$ (in term of my code) to the loss function). The latest help with convergence and slightly improve local cross-validation score but doesn't improve the leaderboard score.
 
+\subsection{Black-box optimization}
+I tried to optimize IPS directly with an evolution strategy optimization technique. It tends to overfit hardly, but even with propensity clipping works worse than SGD-based learning in my case.
+
 \subsection{Baseline from the reference paper}
 I tried to reproduce result from the reference paper (``Large-scale Validation of Counterfactual Learning Methods: A Test-Bed'') using \textbf{vw}, and it produces a good local IPS (before propensity clipping). But on the leaderboard, it performs worse with IPS around 53.
 
